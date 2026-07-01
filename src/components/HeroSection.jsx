@@ -135,7 +135,7 @@ export default function HeroSection() {
             className="w-full max-w-lg overflow-hidden rounded-lg shadow-md border border-gold-200/40 p-1 bg-cream-50"
           >
             <img 
-              src="/src/assets/images/nguni_cattle_1782896686192.jpg" 
+              src="src/assets/images/nguni_cattle_1782896686192.jpg" 
               alt="Beautiful traditional African Nguni cattle standing side-by-side" 
               referrerPolicy="no-referrer"
               className="w-full h-auto object-cover rounded-md"
