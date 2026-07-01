@@ -1,0 +1,8 @@
+{
+  "name": "Rodney & Mathogonolo's Wedding Invitation",
+  "description": "A beautifully crafted traditional wedding invitation for Rodney and Mathogonolo, featuring a sage green and cream aesthetic, calendar countdown, venue and theme details, interactive RSVP, and digital gift registry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

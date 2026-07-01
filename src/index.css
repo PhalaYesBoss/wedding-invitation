@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-script: "Great Vibes", cursive;
+  --font-display: "Cinzel", serif;
+
+  --color-sage-50: #f1f2ef;
+  --color-sage-100: #e1e3dc;
+  --color-sage-200: #c3c6b9;
+  --color-sage-300: #a1a694;
+  --color-sage-400: #7f8571;
+  --color-sage-500: #616654;
+  --color-sage-600: #4b4e41;
+  --color-sage-700: #3d4035;
+  --color-sage-800: #3d4035;
+  --color-sage-900: #282a23;
+
+  --color-gold-50: #f8f6f2;
+  --color-gold-100: #eadfce;
+  --color-gold-200: #d2c1a9;
+  --color-gold-300: #b29b80;
+  --color-gold-400: #9f866b;
+  --color-gold-500: #8c7b67;
+  --color-gold-600: #756452;
+  --color-gold-700: #5f4f40;
+
+  --color-cream-50: #faf9f6;
+  --color-cream-100: #faf9f6;
+  --color-cream-200: #e9e4db;
+  --color-cream-300: #8c7b67;
+  --color-cream-400: #8c7b67;
+}
+
+/* Custom styles for beautiful wedding invitation aesthetic */
+.floral-bg-left {
+  background-color: var(--color-sage-800);
+  background-image: radial-gradient(var(--color-sage-700) 0.5px, transparent 0.5px),
+                    radial-gradient(var(--color-sage-700) 0.5px, var(--color-sage-800) 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Elegant gold border framing */
+.wedding-frame {
+  border: 1px solid var(--color-gold-300);
+  position: relative;
+}
+
+.wedding-frame::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  border: 1px solid var(--color-gold-200);
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Wax seal pulsing or shine */
+.wax-seal {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15),
+              inset 0 2px 4px rgba(255, 255, 255, 0.2),
+              inset 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Text glow */
+.text-gold-glow {
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.2);
+}
