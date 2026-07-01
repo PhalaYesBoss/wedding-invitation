@@ -134,8 +134,9 @@ export default function App() {
         {/* Soft watermark background */}
         <div className="absolute inset-0 opacity-[0.02] bg-center bg-repeat pointer-events-none"
              style={{ 
-               backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20L0 40V0L20 20zm0 0l20 20V0L20 20z' fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E")`
+              backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='C:\Users\Makgatlapetse Phala\Desktop\wedding-invitation\src\assets\images\nguni_cattle_1782896686192.jpg'%3E%3Cpath d='M20 20L0 40V0L20 20zm0 0l20 20V0L20 20z' fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E")`
              }} 
+
         />
 
         <div className="max-w-xl mx-auto space-y-6 relative z-10">
