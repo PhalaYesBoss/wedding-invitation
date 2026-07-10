@@ -163,7 +163,7 @@ export default function SaveTheDateSection() {
           
           {timeLeft.isOver ? (
             <p className="font-display text-xl text-gold-600 tracking-wider">
-              Today is the day! 🎉 Rodney & Mathogonolo are Married!
+              Today is the day! 🎉 Rodney & Matlhogonolo are Getting Married!
             </p>
           ) : (
             <div className="grid grid-cols-4 gap-2 text-center">

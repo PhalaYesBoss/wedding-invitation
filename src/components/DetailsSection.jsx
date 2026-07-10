@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { MapPin, Clock, Calendar, Shirt, Compass, CalendarPlus } from 'lucide-react';
 import { WEDDING_DETAILS } from '../data';
 
+
 export default function DetailsSection() {
   const { date, time, venue, theme } = WEDDING_DETAILS;
 
@@ -162,6 +163,10 @@ export default function DetailsSection() {
               <span className="font-script text-4xl text-gold-600 block">
                 Theme
               </span>
+              <span className="font-script text-2xl text-gold-300 block">
+                Colour Palette: Sage Green/ Shades of Green and Nude
+              </span>
+
             </div>
 
             {/* Theme Content */}
@@ -172,6 +177,7 @@ export default function DetailsSection() {
               <p className="font-display text-xl md:text-2xl text-sage-800 font-semibold tracking-wider mt-1">
                 ATTIRE
               </p>
+
             </div>
 
             {/* Culturally specific descriptive text */}

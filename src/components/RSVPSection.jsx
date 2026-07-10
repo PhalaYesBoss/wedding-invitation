@@ -106,7 +106,7 @@ export default function RSVPSection() {
   const getSMSLink = (contactPhone, rsvpData) => {
     const statusText = rsvpData.isAttending ? `Attending (${rsvpData.guestCount} guests)` : `Regretfully Cannot Attend`;
     const text = encodeURIComponent(
-      `RSVP for Rodney & Mathogonolo's Wedding: Name: ${rsvpData.fullName}. Status: ${statusText}. Phone: ${rsvpData.phoneNumber}.`
+      `RSVP for Rodney & Matlhogonolo's Wedding: Name: ${rsvpData.fullName}. Status: ${statusText}. Phone: ${rsvpData.phoneNumber}.`
     );
     return `sms:${contactPhone}?body=${text}`;
   };
@@ -295,7 +295,7 @@ export default function RSVPSection() {
                   {/* Message of congratulations */}
                   <div>
                     <label htmlFor="wishes" className="block text-xs font-serif text-sage-700 tracking-wider uppercase mb-2">
-                      Well Wishes for Rodney &amp; Mathogonolo
+                      Well Wishes for Rodney &amp; Matlhogonolo
                     </label>
                     <textarea
                       id="wishes"

@@ -34,19 +34,15 @@ export default function InvitationSection() {
             </svg>
           </div>
 
-          <span className="font-script text-5xl text-gold-600 block mb-6">
-            R &amp; M
-          </span>
-
           <p className="text-[11px] font-serif tracking-[0.25em] uppercase text-sage-600 leading-relaxed max-w-md mx-auto mb-8">
-            IT IS WITH THE GREATER JOY THAT<br/>
+            IT IS WITH THE GREAT JOY THAT<br/>
             TOGETHER WITH OUR FAMILIES WE,
           </p>
 
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-sage-950 font-normal leading-tight tracking-wide my-4 text-gold-glow">
             {groom}<br/>
             <span className="font-script text-4xl text-gold-500 lowercase my-1 block">and</span>
-            {bride}
+            Matlhogonolo
           </h2>
 
           {/* Elegant floral flourish divider */}
@@ -58,7 +54,7 @@ export default function InvitationSection() {
           </div>
 
           <p className="text-sm font-serif text-sage-700 leading-relaxed max-w-md mx-auto italic">
-            Warmly request the honor of your presence to share in the celebration of our marriage.
+            Warmly request the honor of your presence to share in the celebration of our Love.
           </p>
         </motion.div>
 

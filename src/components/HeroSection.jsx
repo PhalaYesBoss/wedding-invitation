@@ -17,7 +17,7 @@ export default function HeroSection() {
         />
         
         {/* Top/Side decorative botanical flourish */}
-        <div className="absolute top-8 left-8 text-gold-300/40 font-serif text-xs tracking-[0.2em] uppercase writing-mode-vertical">
+        <div className="absolute top-8 left-8 text-yellow-300/40 font-serif text-xs tracking-[0.2em] uppercase writing-mode-vertical">
           traditional celebration
         </div>
 
@@ -45,7 +45,7 @@ export default function HeroSection() {
               {/* Embossed Ring */}
               <div className="absolute inset-2 border border-gold-400/40 rounded-full" />
               {/* Embossed Initials */}
-              <span className="font-script text-3xl text-gold-100 font-bold select-none text-shadow-sm tracking-tighter">
+              <span className="font-script text-2xl text-gold-100 font-bold select-none text-shadow-sm tracking-tighter">
                 R &amp; M
               </span>
             </div>
@@ -88,7 +88,7 @@ export default function HeroSection() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-sage-600 font-serif text-xs md:text-sm tracking-[0.3em] uppercase mb-12 md:mb-16"
           >
-            The Marriage Celebration of
+            The Wedding Celebration of
           </motion.p>
 
           <motion.h1 
@@ -121,7 +121,7 @@ export default function HeroSection() {
             </p>
 
             <p className="font-serif text-sage-600 text-sm italic mt-8 max-w-sm tracking-wide leading-relaxed">
-              &ldquo;With family and friends by our side, we celebrate our traditional union as Rodney and Mathogonolo.&rdquo;
+              &ldquo;We, Rodney and Matlhogonolo, with our famailies and friends by our side celebrate our union .&rdquo;
             </p>
           </motion.div>
         </div>
@@ -134,12 +134,7 @@ export default function HeroSection() {
             transition={{ delay: 0.6, duration: 1 }}
             className="w-full max-w-lg overflow-hidden rounded-lg shadow-md border border-gold-200/40 p-1 bg-cream-50"
           >
-            <img 
-              src="src/assets/images/nguni_cattle_1782896686192.jpg" 
-              alt="Beautiful traditional African Nguni cattle standing side-by-side" 
-              referrerPolicy="no-referrer"
-              className="w-full h-auto object-cover rounded-md"
-            />
+             
           </motion.div>
 
           <div className="mt-8 flex flex-col items-center">
